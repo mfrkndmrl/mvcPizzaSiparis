@@ -1,0 +1,112 @@
+﻿@model NewPizza.ViewModel.UrunSepetViewModel
+
+@{
+    ViewBag.Title = "Index";
+    @ViewBag.SepetMesaj
+}
+    
+
+@if (Model.SepetUrunler.Count() != 0)
+
+{
+
+
+    <h2>Sepet</h2>
+    <table class="table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <h3>@Html.ActionLink("Sipariş Ver", "AdresSepet")</h3>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SepetUrunler.FirstOrDefault().Urun.Kategori.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SepetUrunler.FirstOrDefault().Urun.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SepetUrunler.FirstOrDefault().Adet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SepetUrunler.FirstOrDefault().Urun.Fiyat)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.SepetUrunler)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Urun.Kategori.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Urun.Ad)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Adet)
+
+                </td>
+                <td>
+                    @(item.Adet * item.Urun.Fiyat) TL
+
+                </td>
+                <td>
+                    @Html.ActionLink("Sil", "SepettenUrunSil", new { id = item.Id })
+
+                </td>
+            </tr>
+
+        }
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><h4> Toplam Fiyat:@ViewBag.Toplam</h4></td>
+            <td></td>
+        </tr>
+    </table>
+}
+<h2>Ürünler</h2>
+<table class="table">
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Urunler.FirstOrDefault().FotoAdres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Urunler.FirstOrDefault().Kategori.Ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Urunler.FirstOrDefault().Ad)
+        </th>
+        <th>
+            Adet
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Urunler.FirstOrDefault().Fiyat)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Urunler)
+    {
+        <tr>
+            <form action="/Home/SepeteEkle" method="post">
+                <td><img src="@item.FotoAdres" width="80" height="60" /></td>
+                <input type="hidden" name="id" value="@Html.DisplayFor(modelItem => item.Id)" />
+                <td> @Html.DisplayFor(modelItem => item.Kategori.Ad)</td>
+                <td><input type="hidden" name="adi" value="@Html.DisplayFor(modelItem => item.Ad)" />@Html.DisplayFor(modelItem => item.Ad)</td>
+                <td><input type="text" name="adet" value="1" style="width:30px;"/></td>
+                <td><input type="hidden" name="fiyat" value="@Html.DisplayFor(modelItem => item.Fiyat)" /> @Html.DisplayFor(modelItem => item.Fiyat)</td>
+                <td><input type="submit" value="Ekle" /></td>
+            </form>
+        </tr>
+    }
+
+</table>

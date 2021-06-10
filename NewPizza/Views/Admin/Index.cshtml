@@ -1,0 +1,101 @@
+﻿@model IEnumerable<NewPizza.Models.Siparis>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Onay Bekleyen Siparişler</h2>
+<h3>
+    @Html.ActionLink("Kategoriler", "Index", "Kategoris") |
+    @Html.ActionLink("Ürünler", "Index", "Uruns") |
+    @Html.ActionLink("Siparişiler", "Index", "Admin")
+</h3>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Adres.AcikAdres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tarih)
+            </th>
+            <th>
+                Bilgi
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            if (item.SiparisOnay == false)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Adres.AcikAdres)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tarih)
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Sipariş Detayı", "SiparisDetay", new { id = item.Id }) |
+                        @Html.ActionLink("Siparişi Onayla", "Onay", new { id = item.Id })
+
+                    </td>
+                </tr>
+            }
+        }
+
+    </table>
+
+    <h2>Onaylanan Siparişler</h2>
+
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Adres.AcikAdres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tarih)
+            </th>
+            <th>
+                Bilgi
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            if (item.SiparisOnay == true)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Adres.AcikAdres)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tarih)
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Siparişi Detay", "SiparisDetay", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        }
+
+    </table>

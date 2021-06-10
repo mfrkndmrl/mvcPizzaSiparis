@@ -1,0 +1,87 @@
+﻿@model NewPizza.ViewModel.SiparisSiparisDetayViewModel
+
+@{
+    ViewBag.Title = "SiparisDetay";
+}
+
+
+<h2>
+    Sipariş Bilgileri
+</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Siparis.Kullanici.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Siparis.Adres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Siparis.Tarih)
+        </th>
+
+    </tr>
+    <tr>
+        <td>
+            @Html.DisplayFor(model => model.Siparis.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Siparis.Adres.AcikAdres)
+            @Html.DisplayFor(model => model.Siparis.Adres.Ilce)/
+            @Html.DisplayFor(model => model.Siparis.Adres.Sehir)
+
+
+
+
+
+
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Siparis.Tarih)
+        </td>
+    </tr>
+
+</table>
+
+<h2>Sipariş Edilen Ürünler</h2>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.SiparisDetaylari.FirstOrDefault().Urun.Ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiparisDetaylari.FirstOrDefault().Adet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiparisDetaylari.FirstOrDefault().Urun.Fiyat)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.SiparisDetaylari)
+    {
+        <tr>
+  
+            <td>
+                @Html.DisplayFor(modelItem => item.Urun.Ad)
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adet)
+
+            </td>
+            <td>
+                
+                @Html.DisplayFor(modelItem => item.Fiyat)
+
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Siparişlere Dön", "Index")

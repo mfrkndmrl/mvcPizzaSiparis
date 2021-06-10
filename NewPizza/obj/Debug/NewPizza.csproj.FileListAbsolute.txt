@@ -1,0 +1,156 @@
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\csc.exe
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\System.Collections.Immutable.dll
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\System.Reflection.Metadata.dll
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\vbc.exe
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\VBCSCompiler.exe
+C:\aspnet\NewPizza\NewPizza\bin\roslyn\VBCSCompiler.exe.config
+C:\aspnet\NewPizza\NewPizza\bin\NewPizza.dll.config
+C:\aspnet\NewPizza\NewPizza\bin\NewPizza.dll
+C:\aspnet\NewPizza\NewPizza\bin\NewPizza.pdb
+C:\aspnet\NewPizza\NewPizza\bin\Antlr3.Runtime.dll
+C:\aspnet\NewPizza\NewPizza\bin\EntityFramework.dll
+C:\aspnet\NewPizza\NewPizza\bin\EntityFramework.SqlServer.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Core.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Cookies.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Facebook.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Google.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.OAuth.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Twitter.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Web.Infrastructure.dll
+C:\aspnet\NewPizza\NewPizza\bin\Newtonsoft.Json.dll
+C:\aspnet\NewPizza\NewPizza\bin\Owin.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Helpers.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Mvc.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Optimization.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Razor.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.WebPages.Deployment.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.WebPages.dll
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.WebPages.Razor.dll
+C:\aspnet\NewPizza\NewPizza\bin\WebGrease.dll
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Helpers.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Mvc.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Optimization.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.Razor.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.WebPages.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.WebPages.Deployment.xml
+C:\aspnet\NewPizza\NewPizza\bin\System.Web.WebPages.Razor.xml
+C:\aspnet\NewPizza\NewPizza\bin\Antlr3.Runtime.pdb
+C:\aspnet\NewPizza\NewPizza\bin\Newtonsoft.Json.xml
+C:\aspnet\NewPizza\NewPizza\bin\EntityFramework.xml
+C:\aspnet\NewPizza\NewPizza\bin\EntityFramework.SqlServer.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Core.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Facebook.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Cookies.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.OAuth.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Google.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Twitter.xml
+C:\aspnet\NewPizza\NewPizza\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.dll
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.pdb
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.uruvekategori.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.csproj.GenerateResource.Cache
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.sepet.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.hatagider.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.Sehir.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.Adres.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.adresduzeltme.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparis.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparisDetay.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparisDuzeltme.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.kategoriduzeltme.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparisesiparisonayeklendi.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.deneme.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.SiparisKullanicinavigatoreklendi.resources
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.csprojResolveAssemblyReference.cache
+C:\aspnet\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.urunfotoadresekleme.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\NewPizza.dll.config
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\NewPizza.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\NewPizza.pdb
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Antlr3.Runtime.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Newtonsoft.Json.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Owin.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Helpers.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Mvc.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Optimization.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Razor.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.WebPages.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.WebPages.Razor.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\WebGrease.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Helpers.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Mvc.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Optimization.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.Razor.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.WebPages.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\System.Web.WebPages.Razor.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Antlr3.Runtime.pdb
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Newtonsoft.Json.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\EntityFramework.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\EntityFramework.SqlServer.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.csprojAssemblyReference.cache
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.uruvekategori.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.sepet.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.hatagider.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.Sehir.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.Adres.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.adresduzeltme.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparis.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparisDetay.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparisDuzeltme.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.kategoriduzeltme.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.siparisesiparisonayeklendi.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.deneme.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.SiparisKullanicinavigatoreklendi.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.Migrations.urunfotoadresekleme.resources
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.csproj.GenerateResource.cache
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.csproj.CoreCompileInputs.cache
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.csproj.CopyComplete
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.dll
+C:\Users\MFD\Desktop\Yeni klasör (3)\MVC Projeler\NewPizza\NewPizza\obj\Debug\NewPizza.pdb

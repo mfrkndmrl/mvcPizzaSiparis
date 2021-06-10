@@ -1,0 +1,87 @@
+﻿@model NewPizza.ViewModel.AdresSepetViewModel
+
+@{
+    ViewBag.Title = "SiparisSepet";
+}
+
+<h2>Seçilen Ürünler</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SepetUrunleri.FirstOrDefault().Urun.Ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SepetUrunleri.FirstOrDefault().Adet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SepetUrunleri.FirstOrDefault().Urun.Fiyat)
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model.SepetUrunleri) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Urun.Ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adet)
+        </td>
+        <td>
+            @(item.Urun.Fiyat * item.Adet)
+
+        </td>
+
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Yeni Adres Ekle", "AdresEkle")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresler.FirstOrDefault().AcikAdres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresler.FirstOrDefault().Ilce)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresler.FirstOrDefault().Sehir)
+        </th>
+        <th></th>
+    </tr>
+
+@if (Model.Adresler.Count() == 0)
+{
+    <tr><p>Kayıtlı adres bulunamadı!</p></tr>
+}
+else
+{
+    foreach (var item in Model.Adresler)
+    {
+        
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AcikAdres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ilce)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sehir)
+        </td>
+
+        <td>
+            @Html.ActionLink("Bu adrese GÖNDER", "SiparisKaydet", new { id = item.Id })
+        </td>
+    </tr>
+}
+}
+
+    
+
+</table>
